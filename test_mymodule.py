@@ -11,5 +11,6 @@ class TestDouble(unittest.TestCase):
     def test_double(self):
         self.assertEqual(double(4),8)
 
-unittest.main()
+if  __name__ == '__main__':
+        unittest.main()
     
